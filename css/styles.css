@@ -46,6 +46,18 @@ img {
 
 
 /*index.html*/
+    .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
 .header{
     border-bottom: 1px solid var(--button-color-two);
     padding: 24px 0;
@@ -61,7 +73,6 @@ img {
     gap: 332px;
 }
 .logo {
-
     font-family: "Raleway",sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -70,8 +81,7 @@ img {
     text-transform: uppercase;
     color: var(--main-color);
     margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
      
 }
 .logo-footer{
@@ -105,6 +115,8 @@ color: var(--cloud-color);
     line-height: 1.5;
     color: var(--navy-color);
     letter-spacing: 0.02em;
+    padding-top: 24px;
+        padding-bottom: 24px;
  }
  .nav-list:hover{
     color: var(--button-color);
@@ -223,8 +235,8 @@ margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
 }
 .workers{
-    padding-left: 16px;
-        padding-right: 16px;
+    
+        padding: 32px 16px;
 }
 
 .title-fifth{
@@ -347,5 +359,11 @@ border: 1px solid transparent;
 .portfolio-items{
     padding-top: 96px;
         padding-bottom: 120px;
+}
+.container-item{
+    padding: 32px 16px;
+    border: 1px solid var(--button-color-two);
+    border-top: none;
+    margin-bottom: 8px;
 }
 
