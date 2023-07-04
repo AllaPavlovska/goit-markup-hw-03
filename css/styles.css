@@ -103,13 +103,12 @@ img {
 color: var(--cloud-color);
  }
  .logo-item
-
- .nav{
+.nav{
     display: flex;
-    align-items: center;
-    margin-left: auto;
-    justify-content: space-between;
- }
+        align-items: center;
+        margin-left: auto;
+        justify-content: space-between;
+}
  .nav-list{
     font-weight: 500;
     font-size: 16px;
