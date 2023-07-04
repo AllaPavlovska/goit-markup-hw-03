@@ -99,16 +99,18 @@ img {
  .logo-text{
   color:  var(--navy-color);
  }
+
  .logo-text-second{
 color: var(--cloud-color);
  }
- .logo-item
+
 .nav{
     display: flex;
         align-items: center;
         margin-left: auto;
         justify-content: space-between;
 }
+
  .nav-list{
     font-weight: 500;
     font-size: 16px;
