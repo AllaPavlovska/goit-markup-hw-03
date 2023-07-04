@@ -4,6 +4,7 @@
     --white-color: #FFFFFF;
     --main-color: #4d5ae5;
     --button-color: #404bbf;
+    --button-color-two: #e7e9fc;
 }
  
  body{
@@ -40,20 +41,20 @@ img {
     max-width: 1158px;
     width: 100%;
     margin: 0 auto;
-    outline: 2px solid;
+    
 }
 
 
 /*index.html*/
 .header{
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
     border-bottom: 1px solid #e7e9fc
    
 }
 .header-menu{
     display: flex;
     gap: 40px;
+   
 }
 .header-container {
     display: flex;
@@ -69,9 +70,12 @@ img {
     text-transform: uppercase;
     color: var(--main-color);
     margin-right: 76px
-    
-    
+     
 }
+.logo-footer{
+    margin-bottom: 16px;
+}
+
 .list{
     list-style: none;
 }
@@ -86,7 +90,10 @@ img {
 color: var(--cloud-color);
  }
  .logo-item{
-    margin-right: 40px
+    margin-right: 40px;
+    padding-top: 24px;
+        padding-bottom: 24px;
+
  }
  .nav{
     display: flex;
@@ -112,7 +119,7 @@ color: var(--cloud-color);
  }
     .address-info{
         display: flex;
-        gap: 18px;
+        gap: 40px;
     }
  .address-link{
     font-size: 16px;
@@ -130,6 +137,8 @@ color: var(--button-color);
  
 .section-solution{
     background-color: var(--navy-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .title{
 font-size: 20px;
@@ -142,6 +151,8 @@ letter-spacing: 0,02em;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 188px,472px,292px,472px;
 }
 .titlesecond{
     font-weight: 500;
@@ -149,12 +160,14 @@ letter-spacing: 0,02em;
         font-size: 20px;
         letter-spacing: 0.02em;
         color: var(--navy-color);
+        margin-bottom: 8px;
 }
 .list-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
      color: #434455;
+    text-align: center;
 }
 .title-describtion{
     font-size: 36px;
@@ -162,11 +175,21 @@ letter-spacing: 0,02em;
     text-align: center;
     text-transform: capitalize;
     color: var(--navy-color);
+    margin-bottom: 72px;
 
 }
 .section-footer{
     background-color: var(--navy-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 
+}
+.doing{
+    display: flex;
+    gap: 24px;
+}
+.doing-items{
+    width: calc((100% - 48px) / 3);
 }
 
 .titlefourth{
@@ -179,6 +202,8 @@ letter-spacing: 0,02em;
 
 .section-describtion{
     background-color: var(--cloud-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 .titlefifth{
@@ -188,9 +213,20 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--navy-color);
+margin-bottom: 72px;
+}
+.people{
+    display: flex;
+    gap: 24px;
 }
 .photos-describtion{
     background-color: var(--white-color);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.workers{
+    padding-left: 16px;
+        padding-right: 16px;
 }
 
 .title-fifth{
@@ -199,6 +235,8 @@ color: var(--navy-color);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-color);
+    text-align: center;
+    margin-bottom: 8px
 
 }
 
@@ -212,24 +250,48 @@ color: var(--navy-color);
     letter-spacing: 0.04em;
     color: var(--white-color);
     cursor:pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
 }
 
 .solution-button:hover,.solution-button:focus{
     background-color: var(--button-color);
 }
-
-
-
+.spdt{
+    padding-top: 120px;
+padding-bottom: 120px
+}
+.section-item{
+    display: flex;
+    gap: 24px;
+}
+.section-menu{
+    width: calc((100% - 72px) / 4);
+}
+.describtion{
+    padding-bottom: 120px;
+}
 .footer-describtion{
     line-height: 1.5;
     color: var(--cloud-color);
     letter-spacing: 0.02em;
+    max-width: 264px
 }
 
 .logo-text span{
     color: var(--navy-color);
 }
 /*portfolio.html*/
+.titlefirst-items{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
  
 .logo-link{
     font-family: 'Raleway', sans-serif;
@@ -248,7 +310,12 @@ color: var(--navy-color);
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--main-color);
-    cursor: pointer
+    cursor: pointer;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid var(--button-color-two);
+    border-radius: 4px
+
 
 }
 
@@ -256,6 +323,7 @@ color: var(--navy-color);
 .link-button:focus{
 color: var(--white-color);
 background-color: var(--button-color);
+border: 1px solid;
 }
 .another-describtion{
     font-weight: 500;
@@ -269,5 +337,9 @@ background-color: var(--button-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.portfolio-items{
+    padding-top: 96px;
+        padding-bottom: 120px;
 }
 
