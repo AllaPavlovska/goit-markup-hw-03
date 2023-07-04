@@ -47,8 +47,8 @@ img {
 
 /*index.html*/
 .header{
-    
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid var(--button-color-two);
+    padding: 24px 0;
    
 }
 .header-menu{
@@ -92,11 +92,7 @@ img {
  .logo-text-second{
 color: var(--cloud-color);
  }
- .logo-item{
-    margin-right: 40px;
-   
-
- }
+ .logo-item
  .nav{
     display: flex;
     align-items: center;
@@ -145,7 +141,7 @@ color: var(--button-color);
 .title{
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0,02em;
+letter-spacing: 0.02em;
 }
 .title-first{
     color: var(--white-color);
