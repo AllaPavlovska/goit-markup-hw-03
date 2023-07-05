@@ -81,7 +81,8 @@ img {
     text-transform: uppercase;
     color: var(--main-color);
     margin-right: 76px;
-    
+    display: inline-block;
+    margin-bottom: 16px;
      
 }
 .logo-footer{
@@ -186,13 +187,24 @@ letter-spacing: 0.02em;
 }
 .list-text{
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-     color: #434455;
-    
-    
-    
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+   
+    display: flex;
+        align-content: space-between;
+        gap: 24px;
 }
+.list-text-workers{
+   
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-align: center;
+
+}
+
 .title-describtion{
     font-size: 36px;
     line-height: 1.11;
@@ -289,7 +301,10 @@ margin-bottom: 72px;
 }
 .spdt{
     padding-top: 120px;
-padding-bottom: 120px
+padding-bottom: 120px;
+display: flex;
+    align-content: space-between;
+    gap: 24px;
 }
 .section-item{
     display: flex;
