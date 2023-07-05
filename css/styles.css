@@ -135,12 +135,14 @@ color: var(--cloud-color);
     .address-info{
         display: flex;
         gap: 40px;
+        margin-top: 24px;
     }
  .address-link{
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
+    
  }
     .address-link:hover{
 color: var(--button-color);
@@ -155,7 +157,7 @@ color: var(--button-color);
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-    margin: 188px 472px 292px;
+   
     
 }
 .title{
@@ -170,6 +172,8 @@ letter-spacing: 0.02em;
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
     
 }
 .titlesecond{
@@ -185,8 +189,9 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
      color: #434455;
-    text-align: center;
-    margin-left: 156;
+    
+    
+    
 }
 .title-describtion{
     font-size: 36px;
@@ -275,8 +280,8 @@ margin-bottom: 72px;
     border: none;
     background-color: #4d5ae5;
     border-radius: 4px;
-    margin: 48px 635px 188px 636px;
-    
+    margin: 0 auto;
+   
 }
 
 .solution-button:hover,.solution-button:focus{
@@ -289,6 +294,7 @@ padding-bottom: 120px
 .section-item{
     display: flex;
     gap: 24px;
+    
 }
 .section-menu{
 width: calc((100% - 72px) / 4);
