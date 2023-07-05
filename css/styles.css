@@ -391,6 +391,7 @@ border: 1px solid transparent;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-color);
+    margin-bottom: 8px;
    
     
 }
